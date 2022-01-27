@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { API_CONFIG } from '../../config/api.config';
 import { CategoriaDTO } from '../../models/categoria.dto';
-import { CategoriasService } from '../../services/domain/CategoriasService';
+import { CategoriasService } from '../../services/domain/categoriasService';
 
 /**
  * Generated class for the CategoriasPage page.
