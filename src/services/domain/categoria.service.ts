@@ -5,7 +5,7 @@ import { API_CONFIG } from "../../config/api.config";
 import { CategoriaDTO } from "../../models/categoria.dto";
 
 @Injectable()
-export class CategoriasService {
+export class CategoriaService {
 
     constructor(public http: HttpClient) { }
 

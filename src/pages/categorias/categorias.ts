@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { API_CONFIG } from '../../config/api.config';
 import { CategoriaDTO } from '../../models/categoria.dto';
-import { CategoriasService } from '../../services/domain/categoriasService';
+import { CategoriaService } from '../../services/domain/categoria.service';
 
 /**
  * Generated class for the CategoriasPage page.
@@ -22,7 +22,7 @@ export class CategoriasPage {
 
   items: CategoriaDTO[];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public categoriaService: CategoriasService) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public categoriaService: CategoriaService) {
   }
 
   ionViewDidLoad() {
